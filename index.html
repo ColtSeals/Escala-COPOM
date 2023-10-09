@@ -396,8 +396,47 @@ function eventCaledarResize($el) {
 
   
 
+<style>
+  /* Estilos para o rodapé */
+  footer {
+    background: linear-gradient(to bottom, #000000, #000000); /* Degradê preto */
+    color: #ffffff; /* Cor do texto branco */
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .red-line {
+    width: 2px;
+    height: 30px;
+    background: linear-gradient(to bottom, #ff0000, #ff0000); /* Degradê vermelho */
+    margin: 0 10px;
+  }
+
+  .footer-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+</style>
+
 <footer>
-  <p>⚡ Desenvolvido pelo CB-PM Luanque Equipe B - 2023</p>
+  <div class="footer-content">
+    <img class="footer-logo" src="caminho_para_sua_imagem.png" alt="Logo">
+    <p>Desenvolvido por CB PM Luanque - 2023</p>
+    <div class="red-line"></div>
+  </div>
 </footer>
+
 </body>
 </html>
+  
